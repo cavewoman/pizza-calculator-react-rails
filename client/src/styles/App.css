@@ -8,18 +8,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  min-height: 6vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 25px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.AppBody {
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 @keyframes App-logo-spin {

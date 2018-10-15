@@ -1,0 +1,23 @@
+.AddPizzaForm {
+  height: 5vh;
+  display: flex;
+}
+
+.AddPizzaForm__input {
+  padding-left: 20px;
+}
+
+.AddPizzaForm__input--name {
+  flex: 2;
+}
+
+.AddPizzaForm__input--toppings {
+  flex: 3;
+}
+
+.AddPizzaForm__submit {
+  flex: 1;
+  background-color: #ffa939;
+  color: #ffffff;
+  font-size: 26px;
+}

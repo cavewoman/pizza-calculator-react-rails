@@ -1,0 +1,7 @@
+.PizzaRow {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+}

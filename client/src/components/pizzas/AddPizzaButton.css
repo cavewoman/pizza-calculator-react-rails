@@ -1,0 +1,9 @@
+.AddPizzaButton {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffa939;
+  color: #ffffff;
+  font-size: 32px;
+}
