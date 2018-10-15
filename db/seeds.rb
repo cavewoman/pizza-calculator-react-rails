@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Pizza.create(name: 'Hawaiian', toppings: 'Ham, Pineapple', vegetarian: false)
+Pizza.create(name: 'Cheese', toppings: 'none', vegetarian: true)
+Pizza.create(name: 'Mushroom', toppings: 'Mushroom', vegetarian: true)
