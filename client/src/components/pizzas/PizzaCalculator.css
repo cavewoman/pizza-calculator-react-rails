@@ -1,0 +1,37 @@
+.PizzaCalculator__container {
+  width: 40vw;
+  margin-top: 2vh;
+  padding-left: 5vw;
+  padding-right: 0;
+}
+.PizzaCalculator__container > hr {
+  margin: 0;
+}
+.PizzaCalculator__title,
+.PizzaCalculator__body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 32px;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.PizzaCalculator__title {
+  height: 6vh;
+  background-color: #ff1361;
+  border-top: 1px solid #e6e6e6;
+  color: white;
+}
+.PizzaCalculator__body {
+  height: 15vh;
+  border-bottom: 1px solid #e6e6e6;
+}
+.PizzaCalculator__inner_body {
+  height: 5vh;
+}
+.PizzaCalculator__inner_body > input {
+  height: 100%;
+  font-size: 32px;
+  width: 3em;
+  margin-right: 1em;
+}

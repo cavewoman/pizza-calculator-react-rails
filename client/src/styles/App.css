@@ -32,6 +32,8 @@
 .AppBody {
   padding-left: 5vw;
   padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
 }
 
 @keyframes App-logo-spin {

@@ -1,4 +1,5 @@
 import React from "react";
+import "./PizzaCalculator.css";
 
 export default class PizzaCalculator extends React.Component {
   constructor() {
@@ -10,12 +11,18 @@ export default class PizzaCalculator extends React.Component {
   }
   render() {
     return (
-      <div class="PizzaCalculator__container">
-        <div class="PizzaCalculator__title">Calculator</div>
+      <div className="PizzaCalculator__container">
+        <div className="PizzaCalculator__title">Calculator</div>
         <hr />
-        <div class="PizzaCalculator__body">
-          <input type="number" pattern="\A[0-9]+\z" onChange={this.onChange} />
-          People = {this.state.numPizzas} Pizzas
+        <div className="PizzaCalculator__body">
+          <div className="PizzaCalculator__inner_body">
+            <input
+              type="number"
+              pattern="\A[0-9]+\z"
+              onChange={this.onChange}
+            />
+            People = {this.state.numPizzas} Pizzas
+          </div>
         </div>
       </div>
     );
