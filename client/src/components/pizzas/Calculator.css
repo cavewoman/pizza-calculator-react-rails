@@ -33,3 +33,14 @@
 .extra-spacing {
   padding: 0 1rem;
 }
+
+.suggestions {
+  background-color: #39f8cf;
+  font-size: 2rem;
+  margin-top: 1em;
+  width: 100%;
+  height: 6vh;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}

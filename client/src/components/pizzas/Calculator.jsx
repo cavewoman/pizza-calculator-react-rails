@@ -34,6 +34,14 @@ export default class Calculator extends React.Component {
             {this.calculatePizzas()} Pizzas
           </span>
         </form>
+
+        {this.state.people_count > 0 && (
+          <input
+            className="suggestions"
+            type="button"
+            value="Click for Suggestions"
+          />
+        )}
       </div>
     )
   }
