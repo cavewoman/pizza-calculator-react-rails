@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './Calculator.css'
 
 export default class Calculator extends React.Component {
@@ -24,7 +23,7 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <div className="Calculator">
-        <h1>Calculator</h1>
+        <div className="header">Calculator</div>
         <form>
           <input onChange={this.handleChange} type="text" id="people_count" />
           <label className="extra-spacing" for="people_count">
