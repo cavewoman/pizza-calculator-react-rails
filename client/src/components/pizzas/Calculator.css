@@ -1,0 +1,25 @@
+.Calculator {
+  margin: 2vw;
+  padding: 1vw 0 2vw;
+  border: 1px solid #e6e6e6;
+  flex: 1;
+  align-self: flex-start;
+}
+
+.Calculator form {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 2vw;
+  font-size: 2rem;
+}
+
+.Calculator form input {
+  width: 10vw;
+  height: 5vh;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.extra-spacing {
+  padding: 0 1rem;
+}
