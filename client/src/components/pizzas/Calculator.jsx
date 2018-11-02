@@ -5,11 +5,13 @@ export default class Calculator extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      people_count: 0
+      people_count: 0,
+      suggestions: []
     }
 
     this.handleChange = this.handleChange.bind(this)
     this.calculatePizzas = this.calculatePizzas.bind(this)
+    this.suggest = this.suggest.bind(this)
   }
 
   handleChange(event) {
@@ -18,6 +20,10 @@ export default class Calculator extends React.Component {
 
   calculatePizzas() {
     return Math.ceil((this.state.people_count * 2) / 8)
+  }
+
+  suggest() {
+    this.setState({ suggestions: ['cheese', 'pepperoni'] })
   }
 
   render() {
@@ -40,7 +46,17 @@ export default class Calculator extends React.Component {
             className="suggestions"
             type="button"
             value="Click for Suggestions"
+            onClick={this.suggest}
           />
+        )}
+
+        {this.state.suggestions.length > 0 && (
+          <ul className="Pizzas suggestionsBox">
+            <li className="PizzaHeaderRow">Suggestions</li>
+            {this.state.suggestions.map(suggestion => (
+              <li className="PizzaRow">{suggestion}</li>
+            ))}
+          </ul>
         )}
       </div>
     )
