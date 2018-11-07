@@ -1,5 +1,6 @@
 import React from "react";
 import "./CalculatorContainer.css";
+import SuggestionsContainer from "../suggestions/SuggestionsContainer"
 
 class CalculatorContainer extends React.Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class CalculatorContainer extends React.Component {
           />{" "}
           People = {this.state.numPizzas} Pizzas
         </div>
+        {this.state.numPizzas > 0 && <SuggestionsContainer numPizzas={this.state.numPizzas}/>}
       </div>
     );
   }

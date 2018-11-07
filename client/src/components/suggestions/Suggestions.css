@@ -1,0 +1,13 @@
+.Suggestions {
+  border: 1px solid #e6e6e6;
+}
+
+.Suggestions__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbb32;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px;
+}
