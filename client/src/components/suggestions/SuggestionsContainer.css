@@ -1,0 +1,14 @@
+.SuggestionsContainer {
+    margin-top: 10px;
+}
+
+.SuggestionsContainer_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff365b;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
