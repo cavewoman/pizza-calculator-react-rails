@@ -3,11 +3,11 @@
 }
 
 .PizzaHeaderRow {
-  height: 6vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #44107a;
   color: #ffffff;
   font-size: 32px;
+  padding: 10px;
 }
