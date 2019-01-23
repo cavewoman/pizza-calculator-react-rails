@@ -1,0 +1,21 @@
+.PizzaCalcBox {
+  width: 40vw;
+  margin-top: 2vh;
+  margin-left: 2rem;
+}
+
+.PizzaCalc {
+  border: 1px solid gray;
+  padding: 2rem 0;
+}
+
+.PizzaCalcSpan {
+  margin-left: 15px;
+}
+
+.PizzaCalcInput {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  width: 100px;
+}

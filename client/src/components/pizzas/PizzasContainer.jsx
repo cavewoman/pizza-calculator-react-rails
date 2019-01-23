@@ -42,10 +42,12 @@ class PizzasContainer extends React.Component {
 
   render() {
     return (
-      <div className="PizzasContainer">
-        <Pizzas pizzas={this.state.pizzas} />
+      <div className="PizzaBox">
+        <div className="PizzasContainer">
+          <Pizzas pizzas={this.state.pizzas} />
 
-        <AddPizzaForm onNewPizza={this.addNewPizza} />
+          <AddPizzaForm onNewPizza={this.addNewPizza} />
+        </div>
         <Calc />
       </div>
     );
