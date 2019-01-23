@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/App.css";
 
 import PizzasContainer from "./components/pizzas/PizzasContainer";
+import CalculatorContainer from "./components/calculator/CalculatorContainer";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       </header>
       <div className="AppBody">
         <PizzasContainer />
+        <CalculatorContainer />
       </div>
     </div>
   );

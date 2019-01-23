@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import "./PizzasContainer.css";
 
 import Pizzas from "./Pizzas";
 import AddPizzaForm from "./AddPizzaForm";
