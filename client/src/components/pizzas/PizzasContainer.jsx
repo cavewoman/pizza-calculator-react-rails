@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import "./PizzasContainer.css";
+import Calc from "./Calc";
 
 import Pizzas from "./Pizzas";
 import AddPizzaForm from "./AddPizzaForm";
@@ -43,7 +44,9 @@ class PizzasContainer extends React.Component {
     return (
       <div className="PizzasContainer">
         <Pizzas pizzas={this.state.pizzas} />
+
         <AddPizzaForm onNewPizza={this.addNewPizza} />
+        <Calc />
       </div>
     );
   }
